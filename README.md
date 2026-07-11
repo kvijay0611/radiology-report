@@ -22,7 +22,7 @@ Manual chest X-ray interpretation is time-intensive and prone to variability. Th
 ---
 
 ## Architecture
-- **CNN Encoder (ResNet-based)** → Image embeddings
+- **CNN Encoder (effiecentNet B4)** → Image embeddings
 - **Vision–Language Bridge** → Feature conditioning
 - **Transformer LLM** → Text generation
 - **Streamlit UI** → Deployment interface
